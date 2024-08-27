@@ -8,16 +8,27 @@
   </head>
   <body>
     <h1>Games.io</h1>
-    <button class="show-modal">Open Modal</button>
+    <section class="modal hidden">
+      <div class="flex">
+        <img
+          src="Screenshot 2024-08-27 at 08.36.16.png"
+          width="50px"
+          height="50px"
+          alt="game-1"
+        />
 
-    <!-- The Modal -->
-    <div class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
+        <button class="btn-close">⨉</button>
       </div>
-    </div>
+      <div>
+        <h3>Lucky Number</h3>
+        <p>Can you guess the number?</p>
+      </div>
+
+      <button class="btn"></button>
+    </section>
+
+    <div class="overlay hidden"></div>
+    <button class="btn btn-open">Open Modal</button>
     <script src="script.js"></script>
   </body>
 </html>
